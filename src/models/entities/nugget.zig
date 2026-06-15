@@ -25,6 +25,6 @@ pub const Nugget = struct{
 
    pub fn hit(self: *Nugget) void {
     self.xPos = rl.getRandomValue(0, rl.getScreenWidth()-@as(i32, self.texture.width));
-    self.yPos = 0;
+    self.yPos = -@as(i32, self.texture.height);
    }
 };

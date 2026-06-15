@@ -27,7 +27,7 @@ pub const Background = struct {
             .animFrames = frames,
             .currentFrame = 0,
 
-            .frameDelay = 1,
+            .frameDelay = 2,
             .frameCounter = 0,
         };
     }
